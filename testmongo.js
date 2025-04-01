@@ -16,6 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 // routes will go here
 
 // Default route:
+/*
 app.get('/', function(req, res) {
   res.send('Starting... ');
 });
@@ -23,7 +24,7 @@ app.get('/', function(req, res) {
 app.get('/say/:name', function(req, res) {
   res.send('Hello ' + req.params.name + '!');
 });
-
+*/
 
 // Route to access database:
 app.get('/api/mongo/:item', function(req, res) {
